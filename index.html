@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,  initial-scale=1.0">
+    <title> Calcular Operaciones Geometrica </title>
+    <link rel="stylesheet" href="./styles/style.css">
+
+</head>
+<body>
+    <div>
+        <h2>Calcular Area Y perimetro de un triangulo</h2>
+        <label>Base</label>
+        <input type="number" value="0" id="baseTriangulo" />
+    </div>
+    <div>
+        <label>Altura</label>
+        <input type="number" value="0"  id="alturaTriangulo" />
+    </div>
+     <label>lado1 Triangulo</label>
+     <input type="number" value="0" id="lado1Triangulo" /></div>
+    <div>
+     <label>lado2 Triangulo</label>
+     <input type="number" value="0" id="lado2Triangulo" oninput=""> </div>
+    <div>
+     <label>Lado3 Triangulo</label>
+     <input type="number" value="0" id="lado3Triangulo" /></div>
+    
+    <button type="button" onclick="calculoTriangulo()"> Calcular Triangulo y perimetro</button>
+    <p id="resultadoTriangulo"></p>
+   
+     
+    
+    <div>
+     <h2> Calcular el area y el perimetro de un cuadrado</h2>
+
+     <label>Lado1 del cuadrado</label>
+     <input type="number" value="0" id="lado1Areacuadrado" /></div>
+    <div>
+     <label>lado2 del cuadrado</label>
+     <input type="number" value="0" id="lado2Areacuadrado" oninput=""> </div>
+    <div>
+     <label>Lado3 del cuadrado</label>
+     <input type="number" value="0" id="lado3Areacuadrado" /></div>
+    <div>
+     <label>lado4 del Cuadrado</label>
+     <input type="number" value="0" id="lado4Areacuadrado" oninput=""> 
+    </div>
+    <button type="button" onclick="CalcularCuadrado()"> Calcular Area Y perimetro de un Cuadrado</button>
+    <p id="resultadoCuadrado"></p>
+   
+    <div>
+     <h2>Calcular Area Y perimetro de un Rectangulo</h2>
+        <label>Base</label>
+        <input type="number" value="0" id="baserectangulo" />
+    </div>
+    <div>
+        <label>Altura</label>
+        <input type="number" value="0"  id="alturarectangulo" />
+    </div>
+    <div>
+        <label>perimetro</label>
+        <input type="number" value="0" id="perimetrorectangulo" oninput="">
+    </div>
+    <button type="button" onclick="calcularRectangulo()"> Calcular Area y perimetro del rectangulo</button>
+    <p id="resultadoRectangulo"></p>
+
+    <div>
+    <h2>Calcular Area Y perimetro de un Circulo</h2>
+           <label>Diametro </label>
+           <input type="number" value="0" id="DiametroCirculo" />
+           
+       </div>
+       <div>
+           <label>Radio</label>
+           <input type="number" value="0"  id="RadioCirculo" />
+       </div>
+       <div>
+           <label>Pi del Circulo</label>
+           <input type="number" value="3.14" id="PiCirculo" oninput="">
+       </div>
+       <button type="button" onclick="calcularCirculo()"> Calcular Area y perimetro del Circulo</button>
+       <p id="resultadoCirculo"></p>
+
+       <script src="./js/main.js"></script> 
+
+</body>
+</html>
